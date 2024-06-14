@@ -10,6 +10,4 @@ gh auth login -p https --with-token < <(echo "$GH_CLI_TOKEN")
 unset GH_CLI_TOKEN
 gh auth status
 
-github-copilot-cli auth
-
 rm ~/auth-setup.sh
